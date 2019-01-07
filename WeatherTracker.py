@@ -1,6 +1,6 @@
 import pyowm
 
-owm = pyowm.OWM('b328f479c725976b77d42cbc59f09391')  # You MUST provide a valid API key
+owm = pyowm.OWM('ADD YOUR KEY')  # You MUST provide a valid API key
 
 
 # Search for current weather
