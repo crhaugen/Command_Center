@@ -4,10 +4,10 @@ import pyowm
 owm = pyowm.OWM('ADD YOUR KEY')  # You MUST provide a valid API key
 
 
-# Search for current weather
-observation = owm.weather_at_coords(48.082778, -121.969722)
+# Search for current weather, according to my location
+observation = owm.weather_at_coords(48.082778, -121.969722) 
 w = observation.get_weather()
-print(w)                      # <Weather - reference time=2013-12-18 09:20,
+print(w)                      # <Weather,
                               # status=Clouds>
 
 # Weather details
