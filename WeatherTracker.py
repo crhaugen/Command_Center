@@ -1,6 +1,7 @@
 import pyowm
 
 #PUT KEY BACK IN BEFORE RUNNING
+#find key?
 owm = pyowm.OWM('ADD YOUR KEY')  # You MUST provide a valid API key
 
 
